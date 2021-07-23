@@ -1,0 +1,10 @@
+PARA PALETAS DE CORES
+
+color.adobe
+coolors
+
+ZERA POSIÇÕES CSS
+*{ height e padding
+
+DEGRADÊ OU GRADIENTE
+background-image: linear-gradiente

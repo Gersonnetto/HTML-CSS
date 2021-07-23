@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        Começando a trabalhar com responsibilidade, colocando imagens para varias dispositivos, mudando o tamnho do navegador podemos fazer o teste.
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/img-300x300.png" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-produto-700x700.jpg" type="image/jpg">
+        <img src="imagens/placehold.it-1000x1000-97.jpg" alt="Imagem flexivel">
+    </picture>
+    <h1>Audios</h1>
+    <p>
+        Aprender a colocar audios no site
+    </p> 
+    <audio src="midia/Nine Lives - Unicorn Heads.mp3" controls  autoplay></audio>
+</body>
+</html>

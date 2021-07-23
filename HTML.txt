@@ -1,0 +1,79 @@
+Endereços
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+favicon.io
+fontawesome
+iana.org - formato para downloads
+
+
+TAGS
+H1-titulos (incluindo varios niveis de titulos h2...h6)
+HR-linha embaixo
+P-paragrafos
+BR-quebra de linhas
+IMG-inserir imagens
+LINK.FAVICON-inserir icone na aba do navegador
+
+STRONG - para deixar palavras em negrito
+EM- para deixar as palavras em italico
+IMPORTANTE* para usar essas TAGS usar o envelopamento com CTRL+SHIFT+C
+e selecionando as palavras e digitando as TAGS
+
+MARK - coloca marcadores de texto em passagens especificas
+IMPORTANTE* Adotando o estilo de mark acima do head, todos os mark serão 
+do mesmo estilo
+
+DEl - Podemos criar um texto <del>para ser excluido, que não de ser considerado
+INS - Podemos criar um texto inserido, e que tenha uma ênfase nele
+IMPORTANTE* para usar essas TAGS usar o envelopamento com CTRL+SHIFT+C
+e selecionando as palavras e digitando as TAGS
+
+SUP - para elevar palavras x²
+SUB - para descer palavra H2O (embaixo)
+IMPORTANTE* para usar essas TAGS usar o envelopamento com CTRL+SHIFT+C
+e selecionando as palavras e digitando as TAGS
+
+Q-aspas para citações, mas indicado em casos de citações pra da o sentido ao codigo
+
+CODE - para escrever codigos fontes usamos essa TAG
+PRE- colocando a TAG CODE dentro dela, a uma formatação para uma melhor
+vizualização
+
+BLOCKQUOTE - cria um bloco para citações mais especificas, adicionando CITE podemos 
+colocar o link das citações que estão na TAG
+
+ABBR- no caso de abreviações ou siglas, podemos adicionar essa tag na silgla e colocando
+o signicicados delas, quando o cursor estiver emcima aparecerar o significados das abreviações
+
+OL - listas ordenadas
+UL - listas não ordenadas
+LI - Intens da lista
+DL - listas de definição
+DT - termo
+DL - descrição
+
+A - ancorar links
+*Evelopar o caminho e usar a TAG A
+*Para links externos usamos o (target="_blank" rel="external") apos o link para que abra uma 
+nova aba e o site principal n seja fechado
+
+PICTURE - carregar imagens no site
+SOURCE-MEDIA - definir o tamanho da imagem para uma acessibilidade de multiplos dispositivos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

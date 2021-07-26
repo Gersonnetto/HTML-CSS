@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+@font-face {
+    font-family:'kg';
+    src: url('KGWhatATime.ttf') format('truetype');
+}
+
+
+
+body {
+    background-image: linear-gradient(to right, #10011a, #27043b, #43066b);
+    font-family: 'kg', sans-serif;
+    font-size: 28px;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: white;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white
+}

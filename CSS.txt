@@ -1,3 +1,5 @@
+**SEMPRE PULAR LINHAS NOS CODIGOS
+
 PARA PALETAS DE CORES
 
 color.adobe
@@ -8,3 +10,19 @@ ZERA POSIÇÕES CSS
 
 DEGRADÊ OU GRADIENTE
 background-image: linear-gradiente
+
+font-family: estilo da fonte
+font-size: tamanho da fonte (px)
+font-weigth: peso da fonte (100-900)
+font-style: estilo da fonte (bold-italic-light) 
+**Para unir todas as informações de uma fonte usamos o SHORTHAND
+Seguindo a sequência:
+font-style - font-weigth - font-size - font-family
+
+@font-face: colocar fontes externas no site
+tipos de formatos
+-opentype (otf)
+-truetype (ttf)
+
+text-align: alinhamento de texto
+text-ident: afastamento de paragrafo

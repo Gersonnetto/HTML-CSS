@@ -26,3 +26,35 @@ tipos de formatos
 
 text-align: alinhamento de texto
 text-ident: afastamento de paragrafo
+
+class: abribubir uma classe (pode repetir)
+id: atribuir um identificador (não pode repetir)
+em HTML é id    = CSS é "#"
+em HTML é class = css é "."
+span: selecionar trechos isolados para modifica-los
+":" = pseudo classe, aplica um estado nas classes selecionadas
+"::" = pseudo elementos 
+hover: efeito quando passa o mouse em cima
+">" = Children, atribuir uma pseudo classe ao item selecionado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

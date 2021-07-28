@@ -37,7 +37,19 @@ span: selecionar trechos isolados para modifica-los
 hover: efeito quando passa o mouse em cima
 ">" = Children, atribuir uma pseudo classe ao item selecionado
 
+PARTE DO CONTEUDO
+height: altura
+width: largura
+border: bordar
+padding: preenchimento 
+margin: margem 
+outline: contorno
 
+div: caixa(box level)
+
+SHOTHANDS 
+border: 10px solid white (largura, estilo, cor)
+padding: 20px 10px 20px 10px (top, right, bottom, left)
 
 
 

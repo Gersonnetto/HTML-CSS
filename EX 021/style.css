@@ -1,0 +1,20 @@
+h1 {
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    border: 10px solid aqua;
+    padding: 20px 10px 20px 10px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    height: 100px;
+    width: 200px;
+    border: 10px solid aqua;
+    background-color: beige;
+    padding: 20px 10px 20px 10px;
+}

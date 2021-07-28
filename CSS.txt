@@ -10,6 +10,9 @@ ZERA POSIÇÕES CSS
 
 DEGRADÊ OU GRADIENTE
 background-image: linear-gradiente
+PARA REGULAR O GRADIENTE
+background-repeat: no repeat
+min-heigth: 100vh
 
 font-family: estilo da fonte
 font-size: tamanho da fonte (px)
@@ -50,7 +53,7 @@ div: caixa(box level)
 SHOTHANDS 
 border: 10px solid white (largura, estilo, cor)
 padding: 20px 10px 20px 10px (top, right, bottom, left)
-
+box-shadown: 5px 5px 15px rgba (0, 0, 0, 0.2)
 
 
 

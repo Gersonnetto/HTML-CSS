@@ -1,0 +1,11 @@
+ USANDO O GIT HUB
+
+git init - inicia o repositorio da pasta 
+git add - adiciona os arquivos para preparação
+git status - status do git 
+git commit -m - primeira menssagem do repositorio
+git branch -M - mudar o nome da brain de master para main
+git remote add origin <link do github> - adicionar seu projeto no 
+repositorio do GITHUB
+git push -u origin main - subir os commits para o github
+git checkout -b - criar uma nova branch

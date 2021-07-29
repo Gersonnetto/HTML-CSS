@@ -55,6 +55,13 @@ border: 10px solid white (largura, estilo, cor)
 padding: 20px 10px 20px 10px (top, right, bottom, left)
 box-shadown: 5px 5px 15px rgba (0, 0, 0, 0.2)
 
+TAGS DE AGRUPAMENTO - (tags semanticas)
+header: cabeçalho
+main:conteudo
+footer: rodapé
+nav: menu de navegação
+section:
+
 
 
 

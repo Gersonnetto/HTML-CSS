@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: hsla(0, 0%, 77%, 0.5);
+    font-family: 'Roboto',   sans-serif;
+}
+
+p {
+    text-indent: 10px;
+}
+
+
+header {
+    background-image: linear-gradient(to top, #25BB58, #3DDC84);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.cabeçalho {
+    padding: 13px 0px 0px 0px;
+}
+
+header > nav {
+    margin: 30px 0px 0px 70px;
+    font-size: 18px;
+    color: white;
+    font-family: 'roboto' sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+
+nav > div:hover {
+    background-color: #ffffff;
+    color: #25BB58;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.home {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.noticias {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.curiosidades {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fale-conosco {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bol;
+    padding: 30px 0px 0px 0px;
+}
+
+h2 {
+    color: #3DDC84;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0px 30px 0px;
+}
+
+h3 {
+    color: #3DDC84;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 0px 30px 0px;
+}
+
+a {
+    color: #3DDC84;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #25BB58;
+}
+
+
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: auto 70px auto 70px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video > iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.pequena {
+    display: flex;
+    margin: auto;
+    max-width: 350px;
+}
+
+.texto {
+    padding: 30px 45px 0px 45px;
+    text-align: justify;
+}
+
+.quadro-lista > p  {
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: hsla(147, 69%, 55%, 0.1);
+}
+
+.quadro-lista > h3 {
+    background-image: linear-gradient(to top, #25BB58, #3DDC84);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 28px 0px 28px 30px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+ul {
+    background-color: hsla(147, 69%, 55%, 0.1);
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+ul > li {
+    padding-left: 30px;
+    
+    
+    
+}
+
+.paragrafo-final {
+    text-align: center;
+    padding-bottom: 250px;
+    padding-top: 50px;
+}
+
+footer {
+    background-image: linear-gradient(to top, #25BB58, #3DDC84);
+    height: 50px;
+}
+.paragrafo-footer {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.paragrafo-footer > a {
+    color: white;
+}
+
+.paragrafo-footer > a:hover {
+    color: #04fa56;
+}

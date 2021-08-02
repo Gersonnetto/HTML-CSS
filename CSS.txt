@@ -5,7 +5,7 @@ flexbox frogy
 grid garden
 playlist marco bruno
 
-
+uigradients
 uplabs
 color.adobe
 coolors
@@ -72,23 +72,42 @@ VARIAVEIS CSS
 (--) adicionar 2 hifen e o nome da variavel 
 
 
+over-flow: nao ter rolagem horizontal (aplicar no header)
+object-fit: cover;- mostra a imagem adequada 
+line-heidth: altura da linha
+text-tranforme UPPERCASE: colocar letras em maiusculo
+letter-spacing: espaçamento entre letras
 
 
-.video {
-    background-image: linear-gradient(to top, #25BB58, #3DDC84);
-    height: 600px;
-    margin: 70px 0px;
+ANIMAÇÕES
+
+EXEMPLO IMAGENS
+.img-wapper img {
+    animation: zoom 25s;
 }
 
-.video > iframe {
-    margin: auto;
-    display: flex;
-    padding-top: 50px;
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 
-
-
+.banner h1 {
+    opacity: 0;
+    animation: movebanner 1s 0.5s forwards;
+@keyframes movebanner {
+    0% {
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    100% {  
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+}
 
 
 

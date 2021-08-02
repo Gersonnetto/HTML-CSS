@@ -1,7 +1,12 @@
 **SEMPRE PULAR LINHAS NOS CODIGOS
 
-PARA PALETAS DE CORES
+TREINAR CSS
+flexbox frogy
+grid garden
+playlist marco bruno
 
+
+uplabs
 color.adobe
 coolors
 

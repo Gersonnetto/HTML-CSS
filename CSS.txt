@@ -2,6 +2,7 @@
 
 TREINAR CSS
 flexbox frogy
+trabalhar em grid
 grid garden
 playlist marco bruno
 
@@ -80,6 +81,20 @@ letter-spacing: espaçamento entre letras
 z-index: 100: para trazer elementos que estão abaixo
 flex-direction: column - direção do display flex
 align-items: alinhar itens
+
+ASIDE: div para menu lateral
+
+CENTRALIZAR EMBRULHO 
+.conhecimentos-img-wapper {
+    grid-column: 7 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+
+.conhecimentos-img-wapper img {
+    object-fit: cover;
+    width: 100%;
+}
 
 
 

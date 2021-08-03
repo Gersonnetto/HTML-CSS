@@ -41,6 +41,51 @@
     background-color: white;
     box-shadow: .2rem .2rem 1px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    transition: transform 1s;
+}
+
+
+.showmenu #line1 {
+    transform: rotate(45deg) translate(0.850rem, 0.1rem);
+}
+
+.showmenu #line2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.showmenu #line3 {
+    transform: rotate(-45deg) translate(0.250rem, 0.1rem);
+}
+
+.hamburguer span {
+    position: absolute;
+    left: 3rem;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:var(--font-action);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #6a3093, #a044ff);
+    margin-top: 0.7rem;
+    opacity: 0;
+}
+
+.hamburguer span::before {
+    content: "";
+    position: absolute;
+    border-right: 0.5rem solid #a044ff;
+    border-left: 0.5rem solid transparent;
+    border-top: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid transparent;
+    left: -1.1rem;
+}
+
+.showmenu .hamburguer:hover span {
+    opacity: 1;
 }
 
 header {

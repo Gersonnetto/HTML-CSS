@@ -17,6 +17,10 @@
     --font-action: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth ;
+}
+
 /* MENU HAMBURGUER */
 
 .hamburguer {
@@ -31,7 +35,7 @@
     justify-content: space-evenly;
     transition: all 1s;
     cursor: pointer;
-    z-index: 1;
+    z-index: 150;
 }
 
 .showmenu .hamburguer {
@@ -201,6 +205,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 1;
 }
 
 .showmenu .sidebar {
@@ -257,6 +262,8 @@ header {
 /* CONHECIMENTOS */
 
 .Conhecimentos {
+    width: 100%;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
@@ -450,7 +457,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .Contato {
@@ -459,6 +466,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+    opacity: .9;
     width: 28rem;
     height: 30rem;
     border-radius: 20px;
@@ -543,3 +551,53 @@ header {
     max-height: 3rem;
 }
 
+footer {
+    width: 100%;
+    height: 8rem;
+    background-color:#242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content p {
+    font-family: var(--font-secundaria);
+    color: #bebcbc80;
+    font-size: 1.2rem;
+}
+
+.social-list a {
+    margin: 0 1rem;
+    color: #bebcbc80;
+    font-size: 2rem;
+    
+}
+
+.social-list ul {
+    display: flex;
+}
+
+.social-list a:hover {
+    color: #6a3093;
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background-image: linear-gradient(to right, #6a3093, #a044ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3) ;
+}

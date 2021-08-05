@@ -262,11 +262,10 @@ header {
 /* CONHECIMENTOS */
 
 .Conhecimentos {
-    width: 100%;
-    height: 100vh;
+    
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 6rem);
+    grid-template-rows: repeat(6, 8rem);
     row-gap: 0.5rem;
 }
 
@@ -302,12 +301,15 @@ header {
 
 .sessao-conhecimento {
     background-image: linear-gradient(to bottom, #bebcbc80, white); 
+    
 }
 
 .sessao-header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 .sessao-header h1 {
@@ -315,7 +317,6 @@ header {
     font-size: 3rem;
     color:#6e6e6e;
     border-bottom: solid 3px #6a3093;
-    margin-bottom: 2rem;
 }
 
 .conhecimento-header {
@@ -354,8 +355,27 @@ header {
 /* PROJETOS */
 
 .projetos {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
+    align-items:center;
+}
+
+.sessao-header-p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.sessao-header-p h1 {
+    font-family:var(--font-principal);
+    font-size: 3rem;
+    color:#6e6e6e;
+    border-bottom: solid 3px #6a3093;
 }
 
 .card {
@@ -363,7 +383,8 @@ header {
     height: 30rem;
     position: relative;
     cursor: pointer;
-    margin-bottom: 5rem;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .card-img-wapper {
@@ -501,13 +522,13 @@ header {
     border-bottom: 1px solid #6a3093;
     outline: none;
     margin: 1rem 0;
-    
 }
 
 .field-label {
     position: absolute;
     left: 0;
-    top: 1rem;
+    top: -0.5rem;
+    bottom: 1rem;
     font-family: var(--font-secundaria);
     text-transform: uppercase;
     color:#353535;
@@ -517,7 +538,6 @@ header {
 
 .field:focus ~ label {
     opacity: 0.5;
-    top: 0%; 
 }
 
 .field:focus  {
@@ -548,8 +568,10 @@ header {
 .field-grupo textarea {
     padding-top: 1rem;
     max-width: 25rem;
-    max-height: 3rem;
+    max-height: 2rem;
 }
+
+/* FOOTER */
 
 footer {
     width: 100%;

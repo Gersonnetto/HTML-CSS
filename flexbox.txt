@@ -1,0 +1,74 @@
+Usando a justify-content propriedade, que alinha os itens horizontalmente
+e aceita os seguintes valores:
+
+QUANDO FOR COLUNA MUDA A VERTICAL
+
+- flex-start: Os itens são alinhados à esquerda do contêiner.
+- flex-end: Os itens são alinhados ao lado direito do contêiner.
+- center: Os itens são alinhados no centro do contêiner.
+- space-between: Os itens são exibidos com espaçamento igual entre eles.
+- space-around: Os itens são exibidos com espaçamento igual ao redor deles.
+
+
+Agora use align-itemspara ajudar os sapos a chegar ao fundo do tanque. 
+Esta propriedade CSS alinha os itens verticalmente e aceita os seguintes valores:
+
+QUANDO FOR COLUNA MUDA A HORIZONTAL
+
+- flex-start: Os itens são alinhados ao topo do contêiner.
+- flex-end: Os itens são alinhados ao fundo do contêiner.
+- center: Os itens são alinhados no centro vertical do contêiner.
+- baseline: Os itens são exibidos na linha de base do contêiner.
+-stretch: Os itens são esticados para caber no contêiner.
+
+"Outra propriedade que você pode aplicar a itens individuais é align-self. 
+Esta propriedade aceita os mesmos valores align-itemse seu valor para o item específico."
+
+
+usando flex-direction. Esta propriedade CSS define a direção em que os itens são colocados 
+no contêiner e aceita os seguintes valores:
+
+- row: Os itens são colocados da mesma forma que a direção do texto.
+- row-reverse: Os itens são posicionados opostos à direção do texto.
+- column: Os itens são colocados de cima para baixo.
+- column-reverse: Os itens são colocados de baixo para cima.
+
+usando a flex-wrap propriedade, que aceita os seguintes valores:
+
+nowrap: Cada item se ajusta a uma única linha.
+wrap: Os itens são agrupados em linhas adicionais.
+wrap-reverse: Os itens são agrupados em linhas adicionais ao contrário.
+
+As duas propriedades flex-directione flex-wrapsão utilizadas tantas vezes juntos 
+que a propriedade estenográfica flex-flowfoi criado para combiná-los. 
+Esta propriedade abreviada aceita o valor das duas propriedades separadas por um espaço.
+Por exemplo, você pode usar flex-flow: row wrappara definir linhas e agrupá-las.
+
+Tente flex-flowrepetir o nível anterior.
+
+usar align-contentpara definir como várias linhas são espaçadas umas das outras. Esta propriedade assume os seguintes valores:
+
+flex-start: As linhas são embaladas na parte superior do contêiner.
+flex-end: As linhas são embaladas no fundo do contêiner.
+center: As linhas são embaladas no centro vertical do contêiner.
+space-between: As linhas são exibidas com espaçamento igual entre elas.
+space-around: As linhas são exibidas com espaçamento igual ao redor delas.
+stretch: As linhas são esticadas para caber no contêiner.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
